@@ -1,0 +1,30 @@
+name: praktek
+description: "A new Flutter project."
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.6
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  provider: ^6.1.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/splash.png"
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
